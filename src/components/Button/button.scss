@@ -1,0 +1,25 @@
+.btn {
+	padding: 10px;
+	border-radius: 10px;
+	min-width: 70px;
+}
+
+.btn.add {
+	background-color: rgb(110, 153, 46);
+	&:hover {
+		background-color: rgb(78, 100, 45);
+	}
+}
+
+.btn.remove {
+	background-color: rgb(156, 53, 40);
+	&:hover {
+		background-color: rgb(94, 35, 29);
+	}
+}
+.btn.checkout {
+	background-color: rgb(214, 193, 7);
+	&:hover {
+		background-color: rgb(107, 100, 35);
+	}
+}
